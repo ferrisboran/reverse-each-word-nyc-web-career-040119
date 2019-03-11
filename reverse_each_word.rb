@@ -3,7 +3,7 @@ def reverse_each_word(string)
   array.collect do |word|
     word.reverse
   end
-  array.join(" ")
+  return array.join(" ")
 =begin
 	yarra = []
 	array.each do |word|
